@@ -4,10 +4,9 @@ from colorama import Fore
 import os
 import ctypes
 
-# Define color variables
-y = "\033[93m"  # Yellow
-w = "\033[0m"   # White
-b = "\033[94m"  # Blue
+y = "\033[93m"
+w = "\033[0m"
+b = "\033[94m"
 
 def webhookspamtitle():
     print(f"{y}Webhook Spam Tool by rumanoooo{w}")
